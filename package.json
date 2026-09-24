@@ -1,0 +1,12 @@
+{
+  "name": "landing-page-showcase",
+  "private": true,
+  "packageManager": "pnpm@11.11.0",
+  "scripts": {
+    "dev:saas": "pnpm --filter @showcase/saas dev",
+    "dev:cafe": "pnpm --filter @showcase/cafe dev",
+    "dev:studio": "pnpm --filter @showcase/studio dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

@@ -1,0 +1,9 @@
+packages:
+  - apps/*
+
+ignoredBuiltDependencies:
+  - sharp
+
+strictDepBuilds: false
+allowBuilds:
+  sharp: set this to true or false
